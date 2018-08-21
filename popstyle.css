@@ -1,0 +1,50 @@
+
+p {
+	font-weight: bold;
+	background-color: white;
+	color: #F47C48;
+}
+
+button {
+	background-color: #F47C48;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	color: white;
+}
+
+#input-freq {
+	position: relative;
+  	left: 78px;
+}
+
+#popup {
+    background: url('images/popup-back.jpg');
+    border-color: blue;
+    width: 300px; 
+    height: 150px;
+}
+
+#logo {
+	position: relative;
+	left: 50px;
+
+	width: 200px;
+	height: 100px;
+}
+
+#description {
+	background-size: auto;
+	background-color: white;
+}
+
+#show-word {
+	margin-bottom: 10px;
+	display:inline-block;
+	color: black;
+}
+
+
+
