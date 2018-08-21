@@ -15,4 +15,4 @@ of their desire. This extension is very self-explanatory, and works in the follo
 7. If you answered incorrectly, you will be immediately notified, and the window will remain open to give a chance to guess again.
 8. You also have the option to cancel the current session, and reset to enter new words, at any given point. 
 
-* If the popup is open while a notification is given, it must be closed and opened to load the new word. 
+* If the popup is open while a notification is given, it must be closed and re-opened to load the new word. 
