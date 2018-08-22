@@ -16,3 +16,7 @@ of their desire. This extension is very self-explanatory, and works in the follo
 8. You also have the option to cancel the current session, and reset to enter new words, at any given point. 
 
 * If the popup is open while a notification is given, it must be closed and re-opened to load the new word. 
+
+<img width="346" alt="lwb1" src="https://user-images.githubusercontent.com/23020094/44440157-cdf8df80-a57b-11e8-92e7-12e56253665f.png">
+
+<img width="344" alt="lwb2" src="https://user-images.githubusercontent.com/23020094/44440161-d0f3d000-a57b-11e8-90fb-4a84bfa9acae.png">
