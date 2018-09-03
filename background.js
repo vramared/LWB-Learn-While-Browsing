@@ -2,13 +2,14 @@
 chrome.alarms.clearAll();
 chrome.storage.sync.clear();
 
-var numOfWords, words, translations;
+var numOfWords, words, translations, notifCounter;
 
 chrome.extension.onMessage.addListener( function(request, sender, sendResponse) {
 	numOfWords = request.length;
 	words = request.sendWords;
 	translations = request.sendTransl;
 	chrome.browserAction.setPopup({popup: 'answerpop.html'});
+	notifCounter = 0;
 });
 
 var question = {
@@ -18,7 +19,6 @@ var question = {
   iconUrl: "images/icon.png",
 };
 
-var notifCounter = 0;
 
 chrome.alarms.onAlarm.addListener(function(alarms) {
 	question.message = words[notifCounter];

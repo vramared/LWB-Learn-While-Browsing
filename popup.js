@@ -1,6 +1,9 @@
 
 document = "popup.html"
 
+chrome.storage.sync.clear();
+chrome.alarms.clearAll();
+
 var startLearningButton = document.getElementById("startLearning");
 formDiv = document.getElementById('word-form');
 var buttonsDiv = document.getElementById('buttons');
@@ -102,6 +105,8 @@ function readInput() {
     }
 
   }
+
+
 
   var centerDiv = document.getElementById('centerDiv');
   if(formLength % 2 != 0) {
