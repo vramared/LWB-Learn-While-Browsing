@@ -56,6 +56,8 @@ function runLWB() {
 	}
 
 	function resetLWB() {
+		chrome.storage.sync.clear();
+		chrome.alarms.clearAll();
 		chrome.browserAction.setPopup({popup: 'popup.html'});
 		window.close();
 	}

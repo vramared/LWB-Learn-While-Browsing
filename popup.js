@@ -1,9 +1,6 @@
 
 document = "popup.html"
 
-chrome.storage.sync.clear();
-chrome.alarms.clearAll();
-
 var startLearningButton = document.getElementById("startLearning");
 formDiv = document.getElementById('word-form');
 var buttonsDiv = document.getElementById('buttons');
